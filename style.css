@@ -1,0 +1,152 @@
+.body-background{
+    scroll-behavior: smooth;
+    text-align: center;
+    background-image: url("https://www.teahub.io/photos/full/79-799118_sky-blue-floral-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 1050px;
+}
+.header{
+    min-width: 500px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 7.5px 7.5px 10px blue;
+    padding-top: 5px;
+    font-family: 'Patua One', cursive;
+    background-image: url("https://c.neh.tw/thumb/f/720/comvecteezy93696.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5px;
+}
+#heading-img-1{
+    height: 50px;
+    width: 50px;
+}
+#heading-img-2{
+    height: 50px;
+    width: 65px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 7.5px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 250px;
+    border: 3.5px solid lightskyblue;
+    background-color: white;
+}
+hr{
+    border-color: black;
+    width: 90%;
+}
+.result_container{
+    width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 220px;
+    background-color: rgb(61, 174, 245);
+    box-shadow: 10px 10px 25px blue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.title-container{
+    width: 75%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 35px;
+    background: linear-gradient(yellow 0%, rgb(255, 255, 0, 0.815) 100%);
+}
+.title{
+    height: 35px;
+    font-family: 'Playfair Display', serif;
+}
+.result_img{
+    height: 180px;
+    width: 180px;
+    float: left;
+    border-radius: 15px;
+    border: 3px dashed yellow;
+}
+.result{
+    font-size: 18px;
+    background-color: white;
+    width: fit-content;
+    padding: 7.5px;
+    border-radius: 15px;
+    width: 300px;
+    font-weight: 600;
+}
+.app_name{
+    color: rebeccapurple;
+    font-weight: 700;
+}
+.result_box{
+    display: flex;
+    justify-content: center;
+}
+.p_result{
+    font-size: 18px;
+    height: 40px;
+    padding: 7.5px;
+    border-radius: 15px;
+    width: 200px;
+    margin-left: 10px;
+    color: blue;
+    font-weight: 600;
+    background-color: white;
+}
+.accuracy-result{
+    font-size: 18px;
+    font-weight: 600;
+}
+.glyphicon-remove{
+    margin-left: 10px;
+    font-size: 30px;
+    color: red;
+}
+.glyphicon-ok{
+    margin-left: 10px;
+    font-size: 30px;
+    color: green;
+}
+.glyphicon-hand-right{
+    margin-right: 5px;
+}
+.final-result{
+    font-family: 'Patua One', cursive;
+    margin-top: 35px;
+}
+table{
+    width: 65%;
+    text-align: center;
+    border: 3.5px solid black;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+}
+th{
+    font-size: 17px;
+    font-weight: 600;
+}
+tr{
+    height: 35px;
+}
+.conclusion{
+    width: 700px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+.p_conc{
+    font-size: 17px;
+}
+.final{
+    font-size: 17px;
+}
